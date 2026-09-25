@@ -63,7 +63,7 @@ You need a Mac with Xcode Command Line Tools, CMake, and Homebrew.
    ./chat_gui
 ```
 
-The first run will download two small models automatically (an embedding model and a chat model). This needs internet once, then everything runs offline.
+The first run will download two small models automatically (an embedding model and a chat model).
 
 ## Project files
 
