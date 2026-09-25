@@ -3,7 +3,8 @@
 A small offline AI chat tool. It reads your text files, finds the most relevant part and asks a local LLM to answer using that part.
 
 Built with [llama.cpp](https://github.com/ggml-org/llama.cpp) for running the models.
-![Chat screenshot](screenshots/chat.png)
+<img width="1204" height="761" alt="chat" src="https://github.com/user-attachments/assets/587e8ed9-69f1-4384-a52f-c4b7a250f829" />
+
 
 ## What it does
 
