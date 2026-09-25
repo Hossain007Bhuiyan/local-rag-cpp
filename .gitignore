@@ -1,0 +1,15 @@
+# compiled programs
+chunker
+embedder
+rag
+chat
+chat_gui
+
+# llama.cpp itself, cloned separately, not part of this repo
+llama.cpp/
+
+# downloaded models
+*.gguf
+
+# macOS junk files
+.DS_Store

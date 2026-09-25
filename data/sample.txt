@@ -1,0 +1,7 @@
+Artificial intelligence is transforming how we build software. Machine learning models can now understand natural language, generate text, and even write code. Large language models, or LLMs, are trained on massive amounts of text data to predict the next word in a sequence.
+
+Retrieval-Augmented Generation, or RAG, is a technique that combines search with text generation. Instead of relying only on what an LLM memorized during training, RAG systems search through external documents first, then use the most relevant pieces to help the LLM answer accurately.
+
+C++ remains one of the most important languages for high-performance computing. It gives developers precise control over memory and speed, which is why it's used in game engines, operating systems, and machine learning inference engines like llama.cpp.
+
+Building a RAG system from scratch teaches valuable skills: reading files, splitting text intelligently, converting text into numerical vectors called embeddings, and searching those vectors efficiently.
