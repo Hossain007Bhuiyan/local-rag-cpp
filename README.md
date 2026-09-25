@@ -1,8 +1,9 @@
 # Local RAG in C++
 
-A small offline AI chat tool. It reads your text files, finds the most relevant part, and asks a local LLM to answer using that part. No internet needed after setup. No API costs.
+A small offline AI chat tool. It reads your text files, finds the most relevant part and asks a local LLM to answer using that part.
 
 Built with [llama.cpp](https://github.com/ggml-org/llama.cpp) for running the models.
+![Chat screenshot](screenshots/chat.png)
 
 ## What it does
 
@@ -21,7 +22,7 @@ Most RAG tutorials use Python. This one is written in C++ from the ground up. Th
 
 **Browser chat**
 
-Opens a chat window in your browser, similar to ChatGPT.
+Opens a chat window in your browser.
 
 ```bash
 ./chat_gui

@@ -66,7 +66,7 @@ const char* CHAT_PAGE = R"HTML(
 <div id="chat">
   <div id="messages"></div>
   <div id="inputBar">
-    <input id="question" type="text" placeholder="Ask a question about your documents..." autofocus>
+    <input id="question" type="text" placeholder="How can I help you?" autofocus>
     <button id="send">Send</button>
   </div>
 </div>
@@ -105,12 +105,7 @@ const char* CHAT_PAGE = R"HTML(
       });
       const data = await res.json();
       thinking.querySelector('.ai').textContent = data.answer;
-      if (data.sources) {
-        const src = document.createElement('div');
-        src.className = 'source';
-        src.textContent = 'Source: ' + data.sources;
-        thinking.appendChild(src);
-      }
+
     } catch (err) {
       thinking.querySelector('.ai').textContent = 'Something went wrong: ' + err;
     }
