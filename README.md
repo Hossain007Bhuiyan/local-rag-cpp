@@ -1,5 +1,8 @@
 # Local RAG in C++
 
+> [!NOTE]
+> Work in progress. More details will be added when the project is finished.
+
 A small AI chat tool. It reads your text files, finds the most relevant part and asks a local LLM to answer using that part.
 
 Built with [llama.cpp](https://github.com/ggml-org/llama.cpp) for running the models.
